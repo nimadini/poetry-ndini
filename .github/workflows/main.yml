@@ -1,7 +1,6 @@
 name: Install Poetry
 
-on:
-  push:
+on: push
 
 jobs:
   main:
@@ -9,6 +8,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
       - name: Install Poetry
         uses: ./
