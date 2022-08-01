@@ -1,0 +1,12 @@
+
+name: Install Poetry
+description: An action that installs poetry and prints its version
+
+runs:
+  using: composite
+  steps:
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+
+    - name: Print Poetry Version
+      uses: echo $(poetry --version)
