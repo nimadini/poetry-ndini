@@ -9,3 +9,4 @@ runs:
 
     - name: Print Poetry Version
       run: echo $(poetry --version)
+      shell: bash
