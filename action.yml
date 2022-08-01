@@ -1,8 +1,5 @@
-
 name: Install Poetry
 description: An action that installs poetry and prints its version
-
-inputs:
 
 runs:
   using: composite
