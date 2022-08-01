@@ -8,4 +8,4 @@ runs:
       uses: snok/install-poetry@v1
 
     - name: Print Poetry Version
-      uses: echo $(poetry --version)
+      run: echo $(poetry --version)
